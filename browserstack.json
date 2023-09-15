@@ -6,12 +6,7 @@
     "browsers": [{
         "browser": "chrome",
         "os": "Windows 10",
-        "versions": ["latest", "latest - 1"]
-      },
-      {
-        "browser": "firefox",
-        "os": "OS X Mojave",
-        "versions": ["latest", "latest - 1"]
+        "versions": ["latest"]
       },
       {
         "browser": "edge",
@@ -21,13 +16,14 @@
     ],
     "run_settings": {
       "cypress_config_file": "./cypress.config.js",
-      "cypress_version": "12.17.1",
+      "cypress_version": "7.5.0",
       "npm_dependencies": {
-        "cypress": "^12.17.1",
+        "cypress": "^13.2.0",
+        "browserstack-cypress-cli": "^1.25.2",
         "cypress-mochawesome-reporter": "^3.6.0"
       },
       "project_name": "Test Cypress",
       "build_name": "Test Cypress Build no: 1",
-      "parallels": 5
+      "parallels": 2
     }
   }

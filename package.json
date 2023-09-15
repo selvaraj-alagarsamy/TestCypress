@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cypress run"
+    "test": "node_modules/.bin/cypress run",
+    "bst": "browserstack-cypress run --spec 'cypress/e2e/2-advanced-examples/actions.cy.js'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.1",
+    "cypress": "^13.2.0",
+    "browserstack-cypress-cli": "^1.25.2",
     "cypress-mochawesome-reporter": "^3.6.0"
   }
 }
