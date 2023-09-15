@@ -5,13 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/cypress run",
+<<<<<<< HEAD
     "bst": "browserstack-cypress run --spec 'cypress/e2e/2-advanced-examples/actions.cy.js'"
+=======
+    "bst": "browserstack-cypress run"
+>>>>>>> a8b44b022e019587bca2392ba315355fcb3dc345
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "cypress": "^13.2.0",
     "browserstack-cypress-cli": "^1.25.2",
     "cypress-mochawesome-reporter": "^3.6.0"
+=======
+    "cypress": "^12.17.1",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "browserstack-cypress-cli": "1.22.1"
+>>>>>>> a8b44b022e019587bca2392ba315355fcb3dc345
   }
 }
