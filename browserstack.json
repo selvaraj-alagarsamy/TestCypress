@@ -7,11 +7,6 @@
         "browser": "chrome",
         "os": "Windows 10",
         "versions": ["latest"]
-      },
-      {
-        "browser": "edge",
-        "os": "OS X Catalina",
-        "versions": ["latest"]
       }
     ],
     "run_settings": {
@@ -23,7 +18,6 @@
         "cypress-mochawesome-reporter": "^3.6.0"
       },
       "project_name": "Test Cypress",
-      "build_name": "Test Cypress Build no: 1",
-      "parallels": 2
+      "build_name": "Test Cypress Build no: 1"
     }
   }
