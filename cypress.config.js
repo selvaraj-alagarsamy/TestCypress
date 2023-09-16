@@ -3,14 +3,11 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
-    reportDir: 'cypress/reports',
-    reportFilename: '[status]_[datetime]-report',
-    reportPageTitle: 'Automation Report',
-    embeddedScreenshots: true,
-    overwrite: false,
-    html: true,
-    saveJson: true,
     charts: true,
+    reportPageTitle: 'Automation-Exeution',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
   },
   e2e: {
     setupNodeEvents(on, config) {

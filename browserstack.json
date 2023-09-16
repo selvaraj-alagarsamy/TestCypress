@@ -11,7 +11,6 @@
     ],
     "run_settings": {
       "cypress_config_file": "./cypress.config.js",
-      "cypress_version": "7.5.0",
       "npm_dependencies": {
         "cypress": "^13.2.0",
         "browserstack-cypress-cli": "^1.25.2",
