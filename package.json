@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cypress run",
-    "bst": "browserstack-cypress run --spec 'cypress/e2e/2-advanced-examples/actions.cy.js'"
+    "test": "node_modules/.bin/cypress run --spec cypress/e2e/2-advanced-examples/actions.cy.js",
+    "bst": "node_modules/.bin/browserstack-cypress run --spec cypress/e2e/2-advanced-examples/actions.cy.js"
   },
   "author": "",
   "license": "ISC",
